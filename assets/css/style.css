@@ -19,8 +19,27 @@ textarea{
   width: 75%;
 }
 
+.fas {
+  justify-content: center;
+  display: flex;
+}
+
 .container {
   margin-bottom: 40px;
+}
+
+.clearSchedule:hover {
+  background-color: #2c3e50;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.clearSchedule {
+  background-color: white;
+  border: 3px solid#2c3e50;
+  color: black;
+  padding: 15px;
+  transition-duration: 0.4s;
 }
 
 .jumbotron {
@@ -57,17 +76,17 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
@@ -77,7 +96,6 @@ textarea{
   background-color: #06AED5;
   color: white;
   width: 10%;
-  height: auto;
 }
 
 .saveBtn i:hover {
