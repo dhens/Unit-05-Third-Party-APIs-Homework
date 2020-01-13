@@ -24,7 +24,6 @@ let blockLength = $(".time-block").length;
         });
 
         $(".saveBtn").on("click", function() {
-            // $(".saveBtn").each(function() {
             for(let i = 0; i < blockLength; i++) {
                 let currentID = $(".description").eq(i).attr("id");
                 let value = $(".description").eq(i).val().trim();
@@ -44,3 +43,4 @@ let blockLength = $(".time-block").length;
                 $(".description").eq(j).text(blockInfo)
             }
         }
+    
